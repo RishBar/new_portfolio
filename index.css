@@ -28,6 +28,19 @@
   line-height: 1.6;
 }
 
+.one-blog {
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.one-blog img {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .blog-posts {
   width: 55%;
   margin-top: 40px;
@@ -137,6 +150,10 @@
     width: 75%;
   }
   .projects {
+    margin: auto;
+    width: 75%;
+  }
+  .one-blog {
     margin: auto;
     width: 75%;
   }
