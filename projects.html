@@ -10,7 +10,7 @@
 <body>
   <div class="main-flex">
     <div class="profile-flex">
-      <img src="1190-014.jpg" alt="barzman">
+      <a href="/index.html"><img src="1190-014.jpg" alt="barzman"></a>
       <div class="socials-flex">
         <a href="https://www.linkedin.com/in/rishav-baral-2963921b3/">
         <i class="fab fa-linkedin"></i></a>
@@ -27,12 +27,36 @@
       <a class="profile-links" href="/projects.html">Projects</a>
       <a class="profile-links" href="/blog.html">Blog</a>
     </div>
-    <div class="about-me">
-      <h1>About me</h1>
-      <p>I am Rishav Baral, a full-stack web developer who recently graduated from Lighthouse Labs, a web development bootcamp. Before joining this bootcamp I was studying computer science at Queen's University for two year where I was put on academic probation for failing to meet the minimum required GPA. This led me to decide to drop out and work minimum wage labour jobs. I felt like I had no sense of direction while studying at a University as I was not learning anything relevant to actually working in the tech industry. I now see that this lack of direction was the reason I had a hard time motivating myself to do any work at university.</p>
-      <p>Working at Lighthouse Labs was a completely different experience as everything I was learning seemed directly applicable to things I may encounter in the workforce. I made various websites such as a scheduler app with react, an online store made with Rails, and for my final project I decided to do something a little more fun and build an online game with a gaming framework called Phaser with my partner. We even managed to get this game deployed with heroku <a href="https://shoot-io.herokuapp.com/">here.</a> It was a breath of fresh air to know that I was not just lazy and I was capable of working hard when I needed to. I just needed to learn in a practical way that can keep me engaged. This is why I want to join the tech industry immediately, I know if I work with a company that is willing to train me, I will grow exponentially as a developer as I will be working with a team that is actually trying to build and maintain a meaningful product.</p>
-      <p>In the meantime I am building projects that sound fun to me. For instance, my newest idea is to build a programmable search engine with google, and then use that to generate random quotes about mindfulness. These are projects I may have to spend less time on as I also have to practice my technical interview skills so I can land my first job as a juniour developer or intern.</p>
-      <p>When I am not practicing coding or building projects, I am usually playing Legend of Zelda Breath of the Wild on my Nintendo Switch or watching videos on youtube about One Piece, my favourite manga that I have been reading since I was 13 years old. Some activities I love are snowboarding, which I would not say I am very good at but is probably my favourite way to spend time, and riding my bike down long hills.</p>
+    <div class="projects">
+      <div class="project shoppingfy">
+        <a href="https://github.com/RishBar/shoppingfy"><img src="shoppingfy.png" alt="shoppingfy"></a>
+        <div class="project-description">
+          <p>Shoppingfy is a naive implementation of Shopify. The app has been deployed with Heroku <a href="https://shoppingfy.herokuapp.com/">here.</a> This app was built with Ruby on Rails 6, and the front end uses raw css and bootstrap</p>
+        </div>
+      </div>
+      <div class="project shoot-io">
+        <a href="https://github.com/RishBar/shoot-io"><img src="Shoot-io.png" alt="Shoot-io"></a>
+        <div class="project-description">
+          <p>Shoot-io is multiplayer top-down shooter game developed with Phaser, a gaming framework made by <a href="http://www.photonstorm.com/">Photon Storm</a>. The game has been deployed with Heroku and is <a href="https://shoot-io.herokuapp.com/">playable.</a></p>
+          <p>Front end: Phaser, React</p>
+          <p>Back End: Node.js, Express, Socket.io, PostgreSQL</p>
+        </div>
+      </div>
+      <div class="project scheduler">
+        <a href="https://github.com/RishBar/scheduler"><img src="Scheduler.png" alt="Scheduler"></a>
+        <div class="project-description">
+          <p>Scheduler is a single page web application that allows users to book, edit, and delete interviews. The schedule is served by a server running separately and interviews that are booked on the client side will update the server and automatically render the new appointment.</p>
+          <p>Front end: HTML, CSS, react</p>
+          <p>Back end: Node.js, Express, PostgreSQL, Axios</p>
+          <p>Testing environment: Jest, Storybook, Cypress</p>
+        </div>
+      </div>
+      <div class="project tweeter">
+
+      </div>
+      <div class="project quizo">
+
+      </div>
     </div>
   </div>
 </body>
